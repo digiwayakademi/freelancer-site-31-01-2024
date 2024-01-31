@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2.2rem; }
+
+.btn-primary, .btn-light, .btn-dark {
+  display: inline-block;
+  padding: 1rem 3.2rem;
+  transition: all .5s;
+  border: none;
+  cursor: pointer; }
+
+.btn-primary {
+  color: #333;
+  background-color: #EF6D6D; }
+
+.btn-light {
+  color: #333;
+  background-color: #f4f4f4; }
+
+.btn-dark {
+  color: #fff;
+  background-color: #333; }
+
+button[class^='btn-']:hover,
+a[class^='btn-']:hover,
+input[class^='btn-']:hover {
+  background-color: #EF6D6D; }
+
+.bg-dark {
+  background-color: #333; }
+
+.bg-primary {
+  background-color: #EF6D6D; }
+
+.bg-light {
+  background-color: #f4f4f4; }
+
+.py-1 {
+  padding: 1.5rem 0; }
+
+.py-2 {
+  padding: 3rem 0; }
+
+.py-3 {
+  padding: 4rem 0; }
+
+.py-4 {
+  padding: 5rem 0; }
+
+.my-1 {
+  margin: 1.5rem 0; }
+
+.my-2 {
+  margin: 3rem 0; }
+
+.my-3 {
+  margin: 4rem 0; }
+
+.my-4 {
+  margin: 5rem 0; }
+
+.main-nav {
+  display: flex;
+  justify-content: space-between; }
+  .main-nav__logo {
+    width: 70px;
+    height: 70px; }
+
+#header__home {
+  background: url("../images/bg.jpeg") no-repeat center right/cover;
+  height: 100vh;
+  color: #fff; }
+
+#header .header-content {
+  text-align: center;
+  padding-top: 30%; }
+
+#header h1 {
+  font-size: 6.4rem;
+  line-height: 1.2; }
+
+#header .typewrite {
+  display: block; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  background-color: #fff;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  line-height: 1.5;
+  font-size: 1.6rem; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  width: 100%; }
